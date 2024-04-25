@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv() ##load all the nevironment variables
 import os
-import generativeai as genai
+import google.generativeai as genai
 
 from youtube_transcript_api import YouTubeTranscriptApi
 
